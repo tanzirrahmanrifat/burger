@@ -1,0 +1,255 @@
+/* = header problem solution ====
+@media(min-width: 518px) and (max-width: 576px) {
+  .logo a img {
+    height: 11vh !important;
+  }
+} */
+
+/* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+  /* ========common style area ======= */
+
+#popular,
+#chose,
+#events,
+#contact,
+#footer {
+  padding-top: 60px;
+}
+
+/*========= header section start ========== */
+#head {
+  padding: 5px 0;
+}
+.logo a img {
+  height: 8vh;
+}
+.delivery {
+  text-align: unset;
+  margin-top: 15px;
+}
+.menu {
+  margin-top: 1rem;
+}
+/*========= header section end ========== */
+  /*======= hero section start ======= */
+  .hero-wrapper {
+      padding-top: 4rem;
+    text-align: center;
+  }
+  .hero-left h1 {
+    font-size: 60px;
+  }
+  .hero-left h3 {
+    font-size: 35px;
+  }
+  .img-fluid.price-br {
+    left: 5rem;
+    bottom: 4rem;
+    height: 12vh;
+  }
+  /*======= hero section end ======= */
+  /* =========popular section start ========= */
+  .popular-right-up {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  /* =========popular section end ========= */
+  /*======== chose section start ========== */
+  .chose-item {
+    margin-bottom: 3rem;
+  }
+  /*======== chose section end ========== */
+  /* =========events section start ============= */
+  .events-wrapper {
+    padding: 1rem 1rem 3rem 1rem;
+    text-align: center;
+  }
+  .carousel-indicators {
+    width: auto;
+    margin-right: 0;
+    bottom: -3.5rem;
+  }
+  /* =========events section end ============= */
+  /* ==========contact section start =========== */
+  .contact-left-content {
+    display: none;
+  }
+  /* ==========contact section end =========== */
+
+  /* ==========footer section start ============ */
+  .footer-wrapper{
+    padding-top: 60px;
+    text-align: center;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .footer-left a img {
+    height: 10vh;
+  }
+  .footer-left {
+    padding: 5px;
+  }
+  .footer-right {
+    padding: 0;
+    padding-top: 3rem;
+  }
+  .footer-social {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* ==========footer section end ============ */
+        /* scrolltop button  */
+        #topbtn {
+          width: 12%;
+          height: 7%;
+          right: 25px;
+          bottom: 40px;
+          font-size: 20px;
+        }
+     
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /*========= header section start ========== */
+#head {
+  padding: 5px 0;
+}
+
+.delivery {
+  text-align: unset;
+  margin-top: 15px;
+}
+.menu {
+  margin-top: 1rem;
+}
+/*========= header section end ========== */
+  /*======= hero section start ======= */
+  .hero-wrapper {
+    padding-top: 4rem;
+  text-align: center;
+}
+.hero-left h1 {
+  font-size: 80px;
+}
+.hero-left h3 {
+  font-size: 45px;
+}
+
+/*======= hero section end ======= */
+  /* =========popular section start ========= */
+  .popular-right-up {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  /* =========popular section end ========= */
+   /*======== chose section start ========== */
+   .chose-item {
+    margin-bottom: 3rem;
+  }
+  /*======== chose section end ========== */
+  /* =========events section start ============= */
+  .events-wrapper {
+    padding: 1rem 1rem 3rem 1rem;
+    text-align: center;
+  }
+  .carousel-indicators {
+    width: auto;
+    margin-right: 0;
+    bottom: -3.5rem;
+  }
+  /* =========events section end ============= */
+  /* ==========contact section start =========== */
+
+  /* ==========contact section end =========== */
+
+  /* ==========footer section start ============ */
+  .footer-wrapper{
+    padding-top: 60px;
+    text-align: center;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .footer-left a img {
+    height: 10vh;
+  }
+  .footer-left {
+    padding: 5px;
+  }
+  .footer-right {
+    padding: 0;
+    padding-top: 3rem;
+  }
+  .footer-social {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* ==========footer section end ============ */
+    
+}
+/* medium devices (tablets, 768px up  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /*========= header section start ========== */
+
+
+/*========= header section end ========== */
+  /*======= hero section start ======= */
+  .hero-left h1 {
+    font-size: 85px;
+  }
+  .hero-left h3 {
+    font-size: 50px;
+  }
+  .hero-left h6 {
+    font-size: 20px;
+  }
+  .img-fluid.price-br {
+    left: 5rem;
+    bottom: 5rem;
+  }
+/*======= hero section end ======= */
+  /* =========popular section start ========= */
+
+  /* =========popular section end ========= */
+   /*======== chose section start ========== */
+
+  /*======== chose section end ========== */
+  /* =========events section start ============= */
+  .carousel-indicators {
+    bottom: -2rem;
+  }
+
+  /* =========events section end ============= */
+  /* ==========contact section start =========== */
+
+  /* ==========contact section end =========== */
+
+  /* ==========footer section start ============ */
+  .footer-left a img {
+    height: 10vh;
+  }
+  .offset-2 {
+    margin: 0;
+  }
+  /* ==========footer section end ============ */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+
+ }
+ /* Large devices ( large desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+ 
+    
+}
+
+/* Extra extra large devices ( extra extra large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+   
+}
